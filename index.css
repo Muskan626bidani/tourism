@@ -1,6 +1,6 @@
 
 .menu-bar{
-    background:rgba(94, 8, 8, 0.801);
+    background:black;
     text-align: left;
     width: 100%;
     /* position: fixed;
@@ -132,7 +132,7 @@ footer .clear {
 }
 
 footer {
-    background: #222;
+    background: black;
     overflow: hidden;
     border-top: solid 1px #000;
     padding: 58px 0 0;
@@ -190,21 +190,12 @@ footer .content {
     padding: 0 20px;
 }
 
-@media screen and (max-width: 768px) {
-    footer .content {
-        padding: 0 10px;
-    }
-}
+
 
 footer .last {
     margin-right: 0px !important;
 }
 
-@media only screen and (max-width: 485px) {
-    footer .last {
-        clear: both;
-    }
-}
 
 #emailsignup {
     float: left;
@@ -235,12 +226,7 @@ footer .last {
     float: right;
 }
 
-@media only screen and (max-width: 825px) {
-    #helpfullinks {
-        float: none;
-        clear: both;
-    }
-}
+
 
 #helpfullinks div {
     float: left;
@@ -282,11 +268,7 @@ footer .last {
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-    #poweredby {
-        margin: 26px auto 0;
-    }
-}
+
 
 #poweredby p {
     font-size: 13px;
@@ -307,13 +289,7 @@ footer .last {
     float: left;
 }
 
-@media only screen and (max-width: 495px) {
-    #poweredby li {
-        margin: 0 0 10px 0;
-        float: none;
-        clear: both;
-    }
-}
+
 
 #poweredby .footer-divvy {
     display: block;
@@ -345,12 +321,6 @@ footer .last {
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-    #social {
-        margin: 26px auto;
-    }
-}
-
 #social ul {
     margin: 0px auto;
     list-style-type: none;
@@ -367,13 +337,7 @@ footer .last {
     color: rgba(255, 255, 255, 0.7);
 }
 
-@media only screen and (max-width: 495px) {
-    #social li {
-        margin: 0 0 10px 0;
-        float: none;
-        clear: both;
-    }
-}
+
 
 #social li a {
     color: rgba(255, 255, 255, 0.7);
@@ -391,16 +355,9 @@ iframe {
     display: block;
     overflow: hidden;
 }
-
-@media only screen and (max-width: 600px) {
-    #footerSealiFrame {
-        height: 285px;
-    }
-
     #footerSeals>img, #footerSeals>embed, #footerSeals>object, #footerSeals>a {
         display: inline-block !important;
         margin: 0 6px 10px !important;
         vertical-align: middle !important;
     }
 }
-
