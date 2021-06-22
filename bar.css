@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:700italic,400,400italic,700);
+
+body {
+    background: url('https://jcdickerson.files.wordpress.com/2012/01/underwater.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 14px;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 100%;
+}
+
+.progress_bar {
+    max-width: 820px;
+    width: 100%;
+    margin: 10px 280px;
+    position: relative;
+    height: 50px;
+    z-index: 10;
+}
+
+.progress_bar hr.all_steps {
+    width: 60%;
+    height: 7px;
+    border: none;
+    background: #ddd;
+    border-bottom: 1px solid #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 10%;
+    z-index: 1;
+}
+
+.progress_bar div.step {
+    font-weight: bold;
+    float: left;
+    width: 20%;
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+    position: relative;
+}
+
+.progress_bar div.step:before {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    background: #ea463d;
+    bottom: 14px;
+    left: 50%;
+    margin-left: -6px;
+    content: '';
+    z-index: 4;
+    display: none;
+}
+
+.progress_bar div.step:after {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 20px;
+    border: 2px solid #ddd;
+    background: #ddd;
+    bottom: 12px;
+    left: 50%;
+    margin-left: -8px;
+    content: '';
+    z-index: 2;
+}
+
+.progress_bar div.step.current {
+    color: #222;
+}
+
+.progress_bar div.step.current:before {
+    display: block;
+}

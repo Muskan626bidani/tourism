@@ -1,0 +1,18 @@
+.btn {
+    width: 10%;
+    height: 50px;
+    box-sizing: border-box;
+    background: rgba(51, 78, 153, .8);
+    cursor: pointer;
+    transition: background .3s;
+}
+
+.btn:hover {
+    background: rgba(255, 99, 71, .8);
+}
+
+.btn {
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+}
