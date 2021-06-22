@@ -1,0 +1,125 @@
+footer .clear {
+    clear: both;
+    float: none;
+}
+
+footer {
+    background: #222;
+    overflow: hidden;
+    border-top: solid 1px #000;
+    padding: 58px 0 0;
+    font-family: arial, helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+footer p,
+footer ul,
+footer a {
+    font-family: arial, helvetica, sans-serif;
+    line-height: 1.5em;
+    text-transform: none;
+}
+
+footer li {
+    font-size: .875em;
+    line-height: 1.5em;
+}
+
+footer .content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#emailsignup {
+    float: left;
+    width: 330px;
+}
+
+#emailsignup a, #helpfullinks a, #social a, {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+#emailsignup p {
+    font-size: 13px;
+    color: #FFF;
+    margin: 0px 0px 16px;
+}
+
+#helpfullinks {
+    float: right;
+}
+
+#helpfullinks div {
+    float: left;
+    margin-right: 45px;
+}
+
+#helpfullinks div a {
+    display: inline;
+    margin-top: -6px;
+    margin-bottom: 8px;
+}
+
+#helpfullinks p.category {
+    color: #FFF;
+    font-size: 21px;
+    margin: 0 0 14px;
+}
+
+#helpfullinks p.category a {
+    color: #FFF;
+}
+
+#helpfullinks ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 14px 0 0 0;
+}
+
+#helpfullinks li {
+    padding: 0px;
+    margin: 0 0 6px;
+    font-size: 15px;
+}
+
+#poweredby {
+    max-width: 100%;
+    margin: 115px auto 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+#poweredby p {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+#social {
+    margin: 60px auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+#social ul {
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 0;
+}
+
+#social ul.social, #social ul.contact {
+    display: inline-block;
+}
+
+#social li {
+    margin: 0 17px 0 0;
+    float: left;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#social li a {
+    color: rgba(255, 255, 255, 0.7);
+}

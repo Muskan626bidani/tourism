@@ -1,0 +1,42 @@
+.menu-bar {
+    background: rgba(94, 8, 8, 0.801);
+    text-align: left;
+    width: 100%;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style-type: none;
+    color: white;
+}
+
+.menu-bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.active, .menu-bar ul li:hover {
+    background: rgba(243, 118, 118, 0.89);
+    border-radius: 3px;
+}
+
+.dropdown {
+    display: none;
+    z-index: 10;
+}
+
+.menu-bar ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+    background: rgba(243, 118, 118, 0.89);
+}
+
+.menu-bar ul li:hover .dropdown ul {
+    display: block;
+}
